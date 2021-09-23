@@ -1,1 +1,198 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T13:04:57.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.3.0" etag="3ueUjlBFZW6kgOfr01ba" type="github"><diagram id="2oZEFR9SA_vJGYJLyxck">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-23T15:27:03.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Ml3-OzBRRRArggsaMsh4" version="15.3.0" type="github">
+  <diagram id="2oZEFR9SA_vJGYJLyxck" name="Page-1">
+    <mxGraphModel dx="2048" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nBKyiB47K03kC05FUZHU-11" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-15" value="joueur 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="250" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-16" value="joueur 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="620" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-17" value="score==3 partie finie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="920" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-18" target="nBKyiB47K03kC05FUZHU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-18" value="choix n1&lt;br&gt;pierre" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-19" value="choix n2&lt;br&gt;ciseau" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-20" value="choix n3&lt;br&gt;feuille" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-23" value="choix identique" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-26" value="choix identique" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-23" target="nBKyiB47K03kC05FUZHU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-28" value="égalité" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="175" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-29" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-28" target="nBKyiB47K03kC05FUZHU-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="745" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-30" value="Relance une manche" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-32" value="choix 1 &quot;pierre&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-33" value="choix 2 &quot;ciseau&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="217.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-34" value="gagne ciseau &lt;br&gt;score +1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-36" value="gagne feuille &lt;br&gt;score+1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-38" value="gagne pierre &lt;br&gt;score+1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-39" value="" style="endArrow=classic;html=1;exitX=0.603;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="232" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-40" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-20" target="nBKyiB47K03kC05FUZHU-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-41" target="nBKyiB47K03kC05FUZHU-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-41" value="score joueur 1 +1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="222.5" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-42" value="score joueur 1" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="390" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-44" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nBKyiB47K03kC05FUZHU-42">
+          <mxGeometry x="17.5" y="37.5" width="40" height="12.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-43" value="score joueur2" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="330" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-45" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nBKyiB47K03kC05FUZHU-43">
+          <mxGeometry x="20" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-47" value="choix 2 &quot;ciseau&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-48" value="choix 3 &quot;feuille&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="265" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-49" target="nBKyiB47K03kC05FUZHU-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-49" value="score joueur 1 +1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-52" value="choix 3 &quot;feuille&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-53" value="if" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="180" width="60" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-54" value="if" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="570" width="60" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-55" value="choix 1 &quot;pierre&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-56" target="nBKyiB47K03kC05FUZHU-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-56" value="score joueur 1 +1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-58" value="si choix identique" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-59" value="si choix identique" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="nBKyiB47K03kC05FUZHU-58" target="nBKyiB47K03kC05FUZHU-58" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-61" value="si choix 1 &quot;pierre&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="610" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-62" value="si choix 2 &quot;ciseau&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="610" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-63" value="score joueur 2 +1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="612.5" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-64" value="si choix 2 &quot;ciseau&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-65" value="si choix 3 &quot;feuille&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="655" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-66" value="score joueur 2 +1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="660" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-67" value="si choix 3 &quot;feuille&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-68" value="si choix 1 &quot;pierre&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-69" value="score joueur 2 +1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="710" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.612;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nBKyiB47K03kC05FUZHU-70" target="nBKyiB47K03kC05FUZHU-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="570" />
+              <mxPoint x="380" y="520" />
+              <mxPoint x="753" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-70" value="égalité" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-73" value="if" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="936.25" width="60" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-82" value="relance la manche" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1020" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKyiB47K03kC05FUZHU-83" value="else" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1030" width="60" height="57.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
